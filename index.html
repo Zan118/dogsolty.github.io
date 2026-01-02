@@ -1,0 +1,193 @@
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORLD-CLASS NEW-AGE METALCORE | Global Audition</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --accent-color: #ff3e3e; /* 赤髪に合わせたアクセントカラー */
+            --main-bg: #0a0a0a;
+            --text-color: #ffffff;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--main-bg);
+            color: var(--text-color);
+            font-family: 'Noto Sans JP', sans-serif;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            /* 赤髪の最新画像を表示 */
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), 
+                        url('https://imgur.com/a/spBUPPb') no-repeat center center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 8vw, 4.5rem);
+            margin-bottom: 10px;
+            text-shadow: 0 0 20px rgba(0,0,0,0.9);
+            line-height: 1.1;
+        }
+
+        .hero p {
+            font-size: clamp(1rem, 3vw, 1.5rem);
+            margin-bottom: 30px;
+            font-weight: bold;
+            background: rgba(0,0,0,0.5);
+            padding: 5px 15px;
+        }
+
+        .cta-button {
+            background-color: transparent;
+            color: white;
+            border: 2px solid var(--accent-color);
+            padding: 18px 50px;
+            font-size: 1.2rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-family: 'Oswald', sans-serif;
+            box-shadow: 0 0 15px rgba(255, 62, 62, 0.4);
+        }
+
+        .cta-button:hover {
+            background-color: var(--accent-color);
+            box-shadow: 0 0 30px rgba(255, 62, 62, 0.8);
+            transform: scale(1.05);
+        }
+
+        /* Content Sections */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 80px 20px;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            border-left: 5px solid var(--accent-color);
+            padding-left: 20px;
+            margin-bottom: 40px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: #151515;
+            padding: 30px;
+            border-radius: 4px;
+            border-bottom: 4px solid #222;
+            transition: border-color 0.3s;
+        }
+
+        .card:hover {
+            border-bottom-color: var(--accent-color);
+        }
+
+        .card h3 { color: var(--accent-color); margin-top: 0; font-size: 1.8rem; }
+
+        .demo-box {
+            background: #111;
+            padding: 40px;
+            text-align: center;
+            border: 1px solid #333;
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 60px 20px;
+            font-size: 0.8rem;
+            color: #555;
+            border-top: 1px solid #1a1a1a;
+        }
+
+        /* Smooth Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>WORLD-CLASS<br>NEW-AGE METALCORE</h1>
+        <p>世界に通用する新世代ニューメタルコア。新規プロジェクト始動につきメンバー募集。</p>
+        <a href="#apply" class="cta-button">APPLY NOW / 応募する</a>
+    </header>
+
+    <section class="container">
+        <h2 class="section-title">THE PROJECT</h2>
+        <p>「世界に勝てる」次世代のニューメタルコア集団を目指しています。メジャー経験者によるアレンジ、1,700曲を超える楽曲ストック、そしてAI技術を駆使した超効率的な制作フロー。先進的な感性と圧倒的な熱量を持つメンバーを探しています。</p>
+        <p>We are a next-gen Nu-Metalcore collective ready for the global stage. Major-label expertise, 1,700+ tracks in stock, and a high-speed AI-integrated workflow. Join the revolution.</p>
+    </section>
+
+    <section class="container" style="background-color: #0d0d0d; max-width: 100%;">
+        <div style="max-width: 1000px; margin: 0 auto;">
+            <h2 class="section-title">OPEN POSITIONS</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>VOCALS</h3>
+                    <p>男女混合募集。Clean & Harsh双方を操る高い表現力を持つ方。<br>Mixed male/female. Versatile range.</p>
+                </div>
+                <div class="card">
+                    <h3>GUITARS</h3>
+                    <p>7弦/ダウンチューニング。重厚かつアグレッシブなリフワーク。<br>7-string or low tuning. 2 slots available.</p>
+                </div>
+                <div class="card">
+                    <h3>BASS & DRUMS</h3>
+                    <p>5弦ベース、高速ツインペダル、テクニカルなプレイ。<br>5st Bass / Technical Double-pedal Mastery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2 class="section-title">DEMO TRACKS</h2>
+        <div class="demo-box">
+            <p>Listen to "SHADOWS OF TOMORROW" and more:</p>
+            <a href="https://soundcloud.com/zakoshineko2" target="_blank" style="color: var(--accent-color); font-weight: bold; text-decoration: none; font-size: 1.2rem;">VISIT SOUNDCLOUD PROFILE →</a>
+        </div>
+    </section>
+
+    <section id="apply" class="container" style="text-align: center;">
+        <h2 class="section-title" style="border: none; padding: 0;">JOIN THE FRONT LINE</h2>
+        <p>先進技術への偏見がなく、効率とクオリティを追求できるプロ志向の方をお待ちしています。</p>
+        <p>For auditions and inquiries, please reach out via DM or Email.</p>
+        <br><br>
+        <a href="mailto:your-email@example.com" class="cta-button">SEND APPLICATION</a>
+    </section>
+
+    <footer>
+        &copy; 2026 WORLD-CLASS NEW-AGE METALCORE PROJECT.Produce by DOG SOLTY MUSIC ALL RIGHTS RESERVED.
+    </footer>
+
+</body>
+</html>
